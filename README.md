@@ -2,7 +2,7 @@
 
 ## Application for searching users and their repositories on github.
 
-## Deployment: [Look here](https://github-search-users-2022.netlify.app/) 
+## Deployment: [Look here](https://MariaGuk.github.io)
 
 </br>
 
