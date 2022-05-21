@@ -2,7 +2,7 @@
 
 ## Application for searching users and their repositories on github.
 
-## Deployment: [Look here](https://MariaGuk.github.io)
+## Deployment: [Look here](https://MariaGuk.github.io/github-users-search)
 
 </br>
 
