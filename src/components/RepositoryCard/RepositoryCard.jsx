@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { CardContainer, Information, StyledLink, StyledDescription } from './styled'
+import { CardContainer, Information, StyledLink, StyledDescription,  } from './styled'
 
-const RepositoryCard = ({ id, name, description, html_url }) => {
+const RepositoryCard = ({ id, name, description, html_url,}) => {
   return (
     <CardContainer key={id}>
       <Information>

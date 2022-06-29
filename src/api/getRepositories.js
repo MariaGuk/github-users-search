@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useMutation} from 'react-query';
+import { useMutation } from 'react-query';
 
 import { client } from 'App';
 import { API_URL } from 'constants/routes';

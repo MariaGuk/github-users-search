@@ -5,7 +5,7 @@ const Box = styled('div')({
   display: 'flex',
   flexDirection: 'row',
   backgroundColor: '#0064EB',
-  padding: '16px 42px',
+  padding: '18px 48px',
   borderBottom: '1px solid #D4D8DD',
   '@media(max-width: 870px)': {
     padding: '16px 8px'
@@ -13,9 +13,9 @@ const Box = styled('div')({
 });
 
 const StyledInput = styled('input')({
-  fontSize: '14px',
+  fontSize: '15px',
   letterSpacing: '0.16px',
-  width: '256px',
+  width: '400px',
   outline: 'none',
   border: 0,
   '@media(max-width: 870px)': {

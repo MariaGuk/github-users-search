@@ -24,4 +24,5 @@ const StyledDescription = styled('p')({
   marginTop: '16px'
 });
 
-export { CardContainer, Information, StyledLink, StyledDescription };
+
+export { CardContainer, Information, StyledLink, StyledDescription, };

@@ -25,7 +25,7 @@ const UserRepositoriesContainer = ({ repositories, userInfo }) => {
         <>
           <ListContainer>
             <Header>Repositories ({totalRepos})</Header>
-            {repositories?.map(({ id, name, html_url, description }) => (
+            {repositories?.map(({ id, name, html_url, description, }) => (
               <UserRepositories
                 key={id}
                 name={name}

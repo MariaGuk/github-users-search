@@ -29,14 +29,20 @@ const StyledLink = styled('a')({
   fontSize: '18px',
   lineHeight: '22px',
   color: '#0064EB',
+});
 
+const StyledInfo = styled('p')({
+  marginTop: '10px',
+  fontSize: '14px',
+  fontWeight: '500',
+  letterSpacing: '0.5px'
 });
 
 const SocialInfo = styled('div')({
   display: 'flex',
   flexDirection: 'row',
   justifyContent: 'space-between',
-  marginTop: '30px',
+  marginTop: '40px',
   '@media(max-width: 1260px)': {
     flexDirection: 'column',
   },
@@ -60,4 +66,4 @@ const StyledIcon = styled('img')({
   alignItems: 'center',
 });
 
-export { Container, StyledAvatar, SocialInfo, InfoContainer, StyledIcon, StyledLink, StyledName };
+export { Container, StyledAvatar, SocialInfo, InfoContainer, StyledIcon, StyledLink, StyledName, StyledInfo };
